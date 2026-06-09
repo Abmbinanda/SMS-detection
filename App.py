@@ -181,7 +181,7 @@ if st.button("🔍 Analyze Message"):
         if result == 1:
             st.error("🚨 SPAM DETECTED")
         else:
-            st.success("✅ LEGITIMATE MESSAGE")
+            st.success("✅ NOT SPAM")
 
         st.markdown("---")
 
